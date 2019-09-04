@@ -12083,11 +12083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\02_Fim\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\01_Fim\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
       "projectName": "MimicAPI",
-      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\02_Fim\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
+      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\01_Fim\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
       "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\02_Fim\\MimicAPI\\MimicAPI\\obj\\",
+      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NET Core WebAPI\\Seção 01\\01_Fim\\MimicAPI\\MimicAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
