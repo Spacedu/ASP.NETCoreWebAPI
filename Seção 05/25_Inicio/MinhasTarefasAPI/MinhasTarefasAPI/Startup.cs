@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -49,15 +48,10 @@ namespace MinhasTarefasAPI
             services.AddScoped<ITarefaRepository, TarefaRepository>();
             services.AddScoped<ITokenRepository, TokenRepository>();
 
-            services.AddMvc(config=> {
-                config.ReturnHttpNotAcceptable = true;
-                config.InputFormatters.Add(new XmlSerializerInputFormatter(config));
-                config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
-            })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-            .AddJsonOptions(
-                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-            );
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                    .AddJsonOptions(
+                        options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                    );
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                     .AddEntityFrameworkStores<MinhasTarefasContext>()

@@ -16,7 +16,6 @@ namespace MinhasTarefasAPI.V1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ApiVersion("1.0")]
     public class UsuarioController : ControllerBase
     {
         private readonly IUsuarioRepository _usuarioRepository;
@@ -113,7 +112,7 @@ namespace MinhasTarefasAPI.V1.Controllers
             }
         }
 
-        private TokenDTO BuildToken(ApplicationUser usuario)
+        public TokenDTO BuildToken(ApplicationUser usuario)
         {
             var claims = new[] {
                 new Claim(JwtRegisteredClaimNames.Email, usuario.Email),

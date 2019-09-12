@@ -1,0 +1,16 @@
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\Database\Mimic.db
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.xml
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.deps.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.runtimeconfig.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.runtimeconfig.dev.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.dll
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\bin\Release\netcoreapp2.2\MimicAPI.pdb
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.csprojAssemblyReference.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.csproj.CoreCompileInputs.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.RazorAssemblyInfo.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.RazorAssemblyInfo.cs
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.AssemblyInfoInputs.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.AssemblyInfo.cs
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.dll
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\01-MimicAPI\MimicAPI\MimicAPI\obj\Release\netcoreapp2.2\MimicAPI.pdb

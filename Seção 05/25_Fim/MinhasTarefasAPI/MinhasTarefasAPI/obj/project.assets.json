@@ -1093,18 +1093,6 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Versioning/3.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "[2.2.0, 3.0.0)"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Mvc.ViewFeatures/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2412,19 +2400,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.dll": {}
         }
       },
-      "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Reflection.TypeExtensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.Primitives/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -3303,63 +3278,6 @@
         },
         "runtime": {
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
-        }
-      },
-      "Swashbuckle.AspNetCore/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "4.0.1",
-          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1",
-          "Swashbuckle.AspNetCore.SwaggerUI": "4.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
-        }
-      },
-      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
-          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
-        }
-      },
-      "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.0.0",
-          "Microsoft.AspNetCore.Mvc.Core": "2.0.0",
-          "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "4.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
-        }
-      },
-      "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Routing": "2.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "2.0.0",
-          "Microsoft.Extensions.FileProviders.Embedded": "2.0.0",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -5828,21 +5746,6 @@
         "microsoft.aspnetcore.mvc.taghelpers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Versioning/3.1.6": {
-      "sha512": "tlM7c315iLDGr+2D7MK3GzEX8tGUj5joxc2p0j+fW6CkrJnXbnNj+yRUkm6SYDQ2pdshgvxySrB1g/bLBbtI3g==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.mvc.versioning/3.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.pdb",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.xml",
-        "microsoft.aspnetcore.mvc.versioning.3.1.6.nupkg.sha512",
-        "microsoft.aspnetcore.mvc.versioning.nuspec"
-      ]
-    },
     "Microsoft.AspNetCore.Mvc.ViewFeatures/2.2.0": {
       "sha512": "dt7MGkzCFVTAD5oesI8UeVVeiSgaZ0tPdFstQjG6YLJSCiq1koOUSHMpf0PASGdOW/H9hxXkolIBhT5dWqJi7g==",
       "type": "package",
@@ -7188,20 +7091,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.xml",
         "microsoft.extensions.options.dataannotations.2.2.0.nupkg.sha512",
         "microsoft.extensions.options.dataannotations.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
-      "type": "package",
-      "path": "microsoft.extensions.platformabstractions/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll",
-        "lib/net451/Microsoft.Extensions.PlatformAbstractions.xml",
-        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll",
-        "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.xml",
-        "microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",
-        "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/2.2.0": {
@@ -8839,57 +8728,6 @@
         "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll",
         "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.netstandard11.nuspec"
-      ]
-    },
-    "Swashbuckle.AspNetCore/4.0.1": {
-      "sha512": "Zq6lkFieuFPNDwXwQ+e8i5zy2VMrexcRFU8mQORxqIc8r7Y+qKX63vg57yL1HeGCINHQGGzxGfw2rP63IeEqhg==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.dll",
-        "swashbuckle.aspnetcore.4.0.1.nupkg.sha512",
-        "swashbuckle.aspnetcore.nuspec"
-      ]
-    },
-    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
-      "sha512": "rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
-        "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512",
-        "swashbuckle.aspnetcore.swagger.nuspec"
-      ]
-    },
-    "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
-      "sha512": "ztAj0T1U+2AqQNA8b+nr8yVkDW9XzNaAfez6d1jO13sdn2A/JW5Syn9TThsakrHxYNLt6y6aQCXbyBfQXpcQwA==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
-        "swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512",
-        "swashbuckle.aspnetcore.swaggergen.nuspec"
-      ]
-    },
-    "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
-      "sha512": "d2U7NyV0e4UhyCzAVK9QHm0iz2QoVPUa9XzJ/Gr0rn/jBZWFpVLvigKv0vxFzO2E793sY605+4h885gvCdKSxQ==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
-        "swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512",
-        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -13433,13 +13271,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
-      "Microsoft.AspNetCore.Mvc.Versioning >= 3.1.6",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
-      "Microsoft.Extensions.PlatformAbstractions >= 1.1.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
-      "Swashbuckle.AspNetCore >= 4.0.1"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
     ]
   },
   "packageFolders": {
@@ -13449,11 +13284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\25_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
       "projectName": "MinhasTarefasAPI",
-      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\25_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
+      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
       "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\25_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\obj\\",
+      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13489,10 +13324,6 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.Mvc.Versioning": {
-            "target": "Package",
-            "version": "[3.1.6, )"
-          },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
             "target": "Package",
@@ -13501,10 +13332,6 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.2.6, )"
-          },
-          "Microsoft.Extensions.PlatformAbstractions": {
-            "target": "Package",
-            "version": "[1.1.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -13515,10 +13342,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.2.3, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[4.0.1, )"
           }
         },
         "imports": [

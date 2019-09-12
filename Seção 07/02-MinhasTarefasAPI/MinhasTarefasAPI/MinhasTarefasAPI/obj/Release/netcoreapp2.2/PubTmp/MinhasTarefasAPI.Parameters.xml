@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MinhasTarefasAPI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Elias\\Desktop\\ASP\.NETCoreWebAPI\\Seção\ 07\\02-MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI\\obj\\Release\\netcoreapp2\.2\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

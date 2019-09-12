@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.ObterTodas(MimicAPI.Helpers.PalavraUrlQuery)">
+            <summary>
+            Operação que pega do banco de dados todas as palavras existentes.
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Listagem de palavras</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que pegar uma única palavra da base de dados.
+            </summary>
+            <param name="id">Código identificador da palavra</param>
+            <returns>Um objeto de palavra</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Cadastrar(MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza o cadastro da palavra
+            </summary>
+            <param name="palavra">Um objeto palavra</param>
+            <returns>Um objeto palavra com seu Id</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza a substituição de dados de uma palavra especifica.
+            </summary>
+            <param name="id">Código identificador da palavra a ser alterada</param>
+            <param name="palavra">Objeto palavra com dados para alteração</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Operação que desativa uma palavra do sistema.
+            </summary>
+            <param name="id">Código identificador da palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V2.Controllers.PalavrasController.ObterTodas">
+            <summary>
+            Operação que pega do banco de dados todas as palavras existentes.
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Listagem de palavras</returns>
+        </member>
+    </members>
+</doc>

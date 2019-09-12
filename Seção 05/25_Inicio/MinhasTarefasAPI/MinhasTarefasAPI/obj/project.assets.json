@@ -13284,11 +13284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\23_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
       "projectName": "MinhasTarefasAPI",
-      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
+      "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\23_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\MinhasTarefasAPI.csproj",
       "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\24_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\obj\\",
+      "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 05\\23_Fim\\MinhasTarefasAPI\\MinhasTarefasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

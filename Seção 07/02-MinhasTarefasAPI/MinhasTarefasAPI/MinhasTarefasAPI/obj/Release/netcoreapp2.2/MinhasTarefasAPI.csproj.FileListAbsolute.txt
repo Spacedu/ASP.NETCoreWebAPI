@@ -1,0 +1,16 @@
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\Database\MinhasTarefas.db
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.deps.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.runtimeconfig.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.runtimeconfig.dev.json
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.dll
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.pdb
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.csprojAssemblyReference.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.csproj.CoreCompileInputs.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.RazorAssemblyInfo.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.RazorAssemblyInfo.cs
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.AssemblyInfoInputs.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.AssemblyInfo.cs
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.dll
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\obj\Release\netcoreapp2.2\MinhasTarefasAPI.pdb
+C:\Users\Elias\Desktop\ASP.NETCoreWebAPI\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\bin\Release\netcoreapp2.2\MinhasTarefasAPI.xml

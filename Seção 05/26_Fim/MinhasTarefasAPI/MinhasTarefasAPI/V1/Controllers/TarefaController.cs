@@ -13,7 +13,6 @@ namespace MinhasTarefasAPI.V1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ApiVersion("1.0")]
     public class TarefaController : ControllerBase
     {
         private readonly ITarefaRepository _tarefaRepository;
