@@ -1,26 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.IdentityModel.Tokens;
-using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using TalkToApi.Database;
 using TalkToApi.Helpers;
 using TalkToApi.Helpers.Contants;
@@ -44,11 +43,7 @@ namespace TalkToApi
         public void ConfigureServices(IServiceCollection services)
         {
             #region AutoMapper-Config
-            var config = new MapperConfiguration(cfg => {
-                cfg.AddProfile(new DTOMapperProfile());
-            });
-            IMapper mapper = config.CreateMapper();
-            services.AddSingleton(mapper);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             #endregion
 
             services.Configure<ApiBehaviorOptions>(op =>
@@ -86,47 +81,56 @@ namespace TalkToApi
                           .AllowAnyHeader();
                 });
             });
-            services.AddMvc(cfg =>
+            services.AddMvc(options =>
             {
-                cfg.ReturnHttpNotAcceptable = true;
-                cfg.InputFormatters.Add(new XmlSerializerInputFormatter(cfg));
-                cfg.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+                options.EnableEndpointRouting = false;
+                options.ReturnHttpNotAcceptable = true;
+                options.InputFormatters.Add(new XmlSerializerInputFormatter(options));
+                options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
 
-                var jsonOutputFormatter = cfg.OutputFormatters.OfType<JsonOutputFormatter>().FirstOrDefault();
+                var jsonOutputFormatter = options.OutputFormatters.OfType<SystemTextJsonOutputFormatter>().FirstOrDefault();
                 if(jsonOutputFormatter != null)
                 {
                     jsonOutputFormatter.SupportedMediaTypes.Add(CustomMediaType.Hateoas);
                 }
             })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
             .AddJsonOptions(
-                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
             );
 
             services.AddApiVersioning(cfg => {
                 cfg.ReportApiVersions = true;
 
-                //cfg.ApiVersionReader = new HeaderApiVersionReader("api-version");
+                //options.ApiVersionReader = new HeaderApiVersionReader("api-version");
                 cfg.AssumeDefaultVersionWhenUnspecified = true;
                 cfg.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
             });
 
             services.AddSwaggerGen(cfg => {
-                cfg.AddSecurityDefinition("Bearer", new ApiKeyScheme()
+                cfg.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
                 {
-                    In = "header",
-                    Type = "apiKey",
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
                     Description = "Adicione o JSON Web Token(JWT) para autenticar.",
-                    Name = "Authorization"
+                    Name = "Authorization",
+                    Scheme = "Bearer"
                 });
 
-                var security = new Dictionary<string, IEnumerable<string>>() {
-                    { "Bearer", new string[] { } }
-                };
-                cfg.AddSecurityRequirement(security);
+
+                cfg.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer",
+                            },
+                        }, new List<string>()
+                    }
+                });
 
                 cfg.ResolveConflictingActions(apiDescription => apiDescription.First());
-                cfg.SwaggerDoc("v1.0", new Swashbuckle.AspNetCore.Swagger.Info()
+                cfg.SwaggerDoc("v1.0", new OpenApiInfo
                 {
                     Title = "TalkTo API - V1.0",
                     Version = "v1.0"
@@ -181,7 +185,7 @@ namespace TalkToApi
                     ValidateAudience = false,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas"))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Cm2FxFNb2Rgx1IrPoI8M6cC1IcutDawX"))
                 };
             });
 
@@ -203,7 +207,7 @@ namespace TalkToApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {

@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.MensagemController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Mensagem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensagem",
+        "Type": "TalkToApi.V1.Models.Mensagem",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "MensagemCadastrar"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.MensagemController",
+    "Method": "AtualizacaoParcial",
+    "RelativePath": "api/Mensagem/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jsonPatch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[TalkToApi.V1.Models.Mensagem, TalkToApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "MensagemAtualizacaoParcial"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.MensagemController",
+    "Method": "Obter",
+    "RelativePath": "api/Mensagem/{usuarioUmId}/{usuarioDoisId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioUmId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioDoisId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "MensagemObter"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UsuarioObterTodos"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioDTO",
+        "Type": "TalkToApi.V1.Models.DTO.UsuarioDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UsuarioCadastrar"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "ObterUsuario",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UsuarioObter"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioDTO",
+        "Type": "TalkToApi.V1.Models.DTO.UsuarioDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UsuarioAtualizar"
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioDTO",
+        "Type": "TalkToApi.V1.Models.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TalkToApi.V1.Controllers.UsuarioController",
+    "Method": "Renovar",
+    "RelativePath": "api/Usuario/renovar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenDTO",
+        "Type": "TalkToApi.V1.Models.DTO.TokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

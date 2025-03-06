@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Startup.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\Startup.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Startup.cs",
+              "RelativeToolTip": "TalkToApi\\Startup.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:51:21.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

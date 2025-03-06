@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.TarefaController",
+    "Method": "Modelo",
+    "RelativePath": "api/Tarefa/modelo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.TarefaController",
+    "Method": "Restaurar",
+    "RelativePath": "api/Tarefa/restaurar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.TarefaController",
+    "Method": "Sincronizar",
+    "RelativePath": "api/Tarefa/sincronizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefas",
+        "Type": "System.Collections.Generic.List\u00601[[MinhasTarefasAPI.V1.Models.Tarefa, MinhasTarefasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.UsuarioController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioDTO",
+        "Type": "MinhasTarefasAPI.V1.Models.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioDTO",
+        "Type": "MinhasTarefasAPI.V1.Models.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinhasTarefasAPI.V1.Controllers.UsuarioController",
+    "Method": "Renovar",
+    "RelativePath": "api/Usuario/renovar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenDTO",
+        "Type": "MinhasTarefasAPI.V1.Models.TokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

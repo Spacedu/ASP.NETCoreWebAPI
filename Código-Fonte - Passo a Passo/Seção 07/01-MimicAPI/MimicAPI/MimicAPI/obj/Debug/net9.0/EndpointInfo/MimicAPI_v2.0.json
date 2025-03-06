@@ -1,0 +1,96 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MimicAPI - V2.0",
+    "version": "v2.0"
+  },
+  "paths": {
+    "/api/v{version}/Palavras": {
+      "get": {
+        "tags": [
+          "Palavras"
+        ],
+        "summary": "Operação que pega do banco de dados todas as palavras existentes.",
+        "operationId": "ObterTodas",
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/plain;v=2.0": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/plain;v=1.1": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/plain;v=1.0": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json;v=2.0": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json;v=1.1": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json;v=1.0": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json;v=2.0": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json;v=1.1": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json;v=1.0": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

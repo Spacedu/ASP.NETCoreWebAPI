@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\01-mimicapi\\mimicapi\\mimicapi\\helpers\\swagger\\apiversionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|solutionrelative:mimicapi\\helpers\\swagger\\apiversionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\01-mimicapi\\mimicapi\\mimicapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|solutionrelative:mimicapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\01-mimicapi\\mimicapi\\mimicapi\\mimicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C922E62-6028-46D9-9A54-E0634C5828C6}|MimicAPI\\MimicAPI.csproj|solutionrelative:mimicapi\\mimicapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MimicAPI.csproj",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
+              "RelativeDocumentMoniker": "MimicAPI\\MimicAPI.csproj",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
+              "RelativeToolTip": "MimicAPI\\MimicAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T15:23:44.509Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiVersionOperationFilter.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "RelativeDocumentMoniker": "MimicAPI\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "RelativeToolTip": "MimicAPI\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:47:17.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "MimicAPI\\Startup.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\01-MimicAPI\\MimicAPI\\MimicAPI\\Startup.cs",
+              "RelativeToolTip": "MimicAPI\\Startup.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAFkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:25:00.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,28 +3,27 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using MinhasTarefasAPI.Database;
 using MinhasTarefasAPI.V1.Helpers.Swagger;
 using MinhasTarefasAPI.V1.Models;
 using MinhasTarefasAPI.V1.Repositories;
 using MinhasTarefasAPI.V1.Repositories.Contracts;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace MinhasTarefasAPI
 {
@@ -53,17 +52,19 @@ namespace MinhasTarefasAPI
             services.AddScoped<ITarefaRepository, TarefaRepository>();
             services.AddScoped<ITokenRepository, TokenRepository>();
 
-            services.AddMvc(config=> {
+            services.AddMvc(config =>
+            {
+                config.EnableEndpointRouting = false;
                 config.ReturnHttpNotAcceptable = true;
                 config.InputFormatters.Add(new XmlSerializerInputFormatter(config));
                 config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
             })
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
             .AddJsonOptions(
-                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
             );
 
-            services.AddApiVersioning(cfg => {
+            services.AddApiVersioning(cfg =>
+            {
                 cfg.ReportApiVersions = true;
 
                 //cfg.ApiVersionReader = new HeaderApiVersionReader("api-version");
@@ -71,21 +72,32 @@ namespace MinhasTarefasAPI
                 cfg.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
             });
 
-            services.AddSwaggerGen(cfg => {
-                cfg.AddSecurityDefinition("Bearer", new ApiKeyScheme() {
-                    In = "header",
-                    Type = "apiKey",
+            services.AddSwaggerGen(cfg =>
+            {
+                cfg.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
+                {
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
                     Description = "Adicione o JSON Web Token(JWT) para autenticar.",
-                    Name = "Authorization"
+                    Name = "Authorization",
+                    Scheme = "Bearer"
                 });
 
-                var security = new Dictionary<string, IEnumerable<string>>() {
-                    { "Bearer", new string[] { } }
-                };
-                cfg.AddSecurityRequirement(security);
+
+                cfg.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer",
+                            },
+                        }, new List<string>() 
+                    }
+                });
 
                 cfg.ResolveConflictingActions(apiDescription => apiDescription.First());
-                cfg.SwaggerDoc("v1.0", new Swashbuckle.AspNetCore.Swagger.Info()
+                cfg.SwaggerDoc("v1.0", new OpenApiInfo
                 {
                     Title = "MinhasTarefas API - V1.0",
                     Version = "v1.0"
@@ -127,18 +139,20 @@ namespace MinhasTarefasAPI
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(options=> {
+            }).AddJwtBearer(options =>
+            {
                 options.TokenValidationParameters = new TokenValidationParameters()
                 {
                     ValidateIssuer = false,
                     ValidateAudience = false,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas"))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Cm2FxFNb2Rgx1IrPoI8M6cC1IcutDawX"))
                 };
             });
 
-            services.AddAuthorization(auth=> {
+            services.AddAuthorization(auth =>
+            {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
                                              .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
                                              .RequireAuthenticatedUser()
@@ -147,8 +161,10 @@ namespace MinhasTarefasAPI
             });
 
 
-            services.ConfigureApplicationCookie(options=> {
-                options.Events.OnRedirectToLogin = context => {
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Events.OnRedirectToLogin = context =>
+                {
                     context.Response.StatusCode = 401;
                     return Task.CompletedTask;
                 };
@@ -156,7 +172,7 @@ namespace MinhasTarefasAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -174,7 +190,8 @@ namespace MinhasTarefasAPI
             app.UseMvc();
 
             app.UseSwagger(); // /swagger/v1/swagger.json
-            app.UseSwaggerUI(cfg => {
+            app.UseSwaggerUI(cfg =>
+            {
                 cfg.SwaggerEndpoint("/swagger/v1.0/swagger.json", "Minhas Tarefas API - V1.0");
                 cfg.RoutePrefix = String.Empty;
             });

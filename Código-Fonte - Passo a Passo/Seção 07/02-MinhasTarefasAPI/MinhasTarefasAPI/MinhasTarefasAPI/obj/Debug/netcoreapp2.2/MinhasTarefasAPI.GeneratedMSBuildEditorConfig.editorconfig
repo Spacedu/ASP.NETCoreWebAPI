@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = MinhasTarefasAPI
+build_property.ProjectDir = C:\Dev\04.TESTE\ASP.NETCoreWebAPI\Código-Fonte - Passo a Passo\Seção 07\02-MinhasTarefasAPI\MinhasTarefasAPI\MinhasTarefasAPI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

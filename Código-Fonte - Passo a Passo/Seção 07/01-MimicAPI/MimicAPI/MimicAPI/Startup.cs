@@ -36,7 +36,7 @@ namespace MimicAPI
             services.AddDbContext<MimicContext>(opt => {
                 opt.UseSqlite("Data Source=Database\\Mimic.db");
             });
-            services.AddMvc();
+            services.AddMvc(options=>options.EnableEndpointRouting = false);
             services.AddScoped<IPalavraRepository, PalavraRepository>();
             services.AddApiVersioning(cfg=> {
                 cfg.ReportApiVersions = true;
@@ -48,21 +48,22 @@ namespace MimicAPI
 
             services.AddSwaggerGen(cfg => {
                 cfg.ResolveConflictingActions(apiDescription => apiDescription.First());
-                cfg.SwaggerDoc("v2.0", new Swashbuckle.AspNetCore.Swagger.Info()
+                cfg.SwaggerDoc("v2.0", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
                     Title = "MimicAPI - V2.0",
                     Version = "v2.0"
                 });
-                cfg.SwaggerDoc("v1.1", new Swashbuckle.AspNetCore.Swagger.Info()
+                cfg.SwaggerDoc("v1.1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
                     Title = "MimicAPI - V1.1",
                     Version = "v1.1"
                 });
-                cfg.SwaggerDoc("v1.0", new Swashbuckle.AspNetCore.Swagger.Info() {
+                cfg.SwaggerDoc("v1.0", new Microsoft.OpenApi.Models.OpenApiInfo 
+                {
                     Title = "MimicAPI - V1.0",
                     Version = "v1.0"
                 });
-
+                
                 var CaminhoProjeto = PlatformServices.Default.Application.ApplicationBasePath; ;
                 var NomeProjeto = $"{PlatformServices.Default.Application.ApplicationName}.xml";
                 var CaminhoArquivoXMLComentario = Path.Combine(CaminhoProjeto, NomeProjeto);
@@ -92,7 +93,7 @@ namespace MimicAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {

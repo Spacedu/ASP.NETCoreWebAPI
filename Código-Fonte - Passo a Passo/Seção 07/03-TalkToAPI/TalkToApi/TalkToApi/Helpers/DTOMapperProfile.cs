@@ -13,12 +13,12 @@ namespace TalkToApi.Helpers
         public DTOMapperProfile()
         {
             CreateMap<ApplicationUser, UsuarioDTO>()
-                .ForMember(dest=>dest.Nome, orig=>orig.MapFrom(src=>src.FullName));
+                .ForMember(dest=>dest.Nome, orig=>orig.MapFrom(src=>src.FullName)).ReverseMap();
 
             CreateMap<ApplicationUser, UsuarioDTOSemHyperlink>()
-                .ForMember(dest => dest.Nome, orig => orig.MapFrom(src => src.FullName));
+                .ForMember(dest => dest.Nome, orig => orig.MapFrom(src => src.FullName)).ReverseMap();
 
-            CreateMap<Mensagem, MensagemDTO>();
+            CreateMap<Mensagem, MensagemDTO>().ReverseMap();
             //CreateMap<PaginationList<Palavra>, PaginationList<PalavraDTO>>();
         }
     }

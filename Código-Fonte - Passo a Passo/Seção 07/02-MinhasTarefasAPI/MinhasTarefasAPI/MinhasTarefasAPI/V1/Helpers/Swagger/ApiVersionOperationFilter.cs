@@ -1,4 +1,5 @@
-﻿using Swashbuckle.AspNetCore.Swagger;
+﻿using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
 using System.Collections.Generic;
@@ -9,13 +10,15 @@ namespace MinhasTarefasAPI.V1.Helpers.Swagger
 {
     public class ApiVersionOperationFilter : IOperationFilter
     {
-        public void Apply(Operation operation, OperationFilterContext context)
+
+        public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
             var actionApiVersionModel = context.ApiDescription.ActionDescriptor?.GetApiVersion();
             if (actionApiVersionModel == null)
             {
                 return;
             }
+            /*
 
             if (actionApiVersionModel.DeclaredApiVersions.Any())
             {
@@ -29,6 +32,7 @@ namespace MinhasTarefasAPI.V1.Helpers.Swagger
                   .SelectMany(p => actionApiVersionModel.ImplementedApiVersions.OrderByDescending(v => v)
                     .Select(version => $"{p};v={version.ToString()}")).ToList();
             }
+            */
         }
     }
 }

@@ -1,34 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj": {}
+    "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj": {
+    "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
+        "projectUniqueName": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
         "projectName": "TalkToWeb",
-        "projectPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
-        "packagesPath": "C:\\Users\\Elias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elias\\Desktop\\ASP.NETCoreWebAPI\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\obj\\",
+        "projectPath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
+        "packagesPath": "C:\\Users\\elias\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -36,34 +39,44 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.3.0, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

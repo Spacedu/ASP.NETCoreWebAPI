@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8OoHXByWTLc=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\Código-Fonte - Passo a Passo\\Seção 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elias\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.3.0\\microsoft.aspnetcore.razor.design.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

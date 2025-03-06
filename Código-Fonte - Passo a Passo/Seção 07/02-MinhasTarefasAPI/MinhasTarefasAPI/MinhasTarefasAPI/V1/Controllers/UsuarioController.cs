@@ -120,7 +120,7 @@ namespace MinhasTarefasAPI.V1.Controllers
                 new Claim(JwtRegisteredClaimNames.Sub, usuario.Id)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("chave-api-jwt-minhas-tarefas")); //Recomendo -> appsettings.json
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Cm2FxFNb2Rgx1IrPoI8M6cC1IcutDawX")); //Recomendo -> appsettings.json
             var sign = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var exp = DateTime.UtcNow.AddHours(1);
 

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\v1\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\v1\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\helpers\\swagger\\apiversionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\helpers\\swagger\\apiversionoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\helpers\\dtomapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\helpers\\dtomapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoapi\\database\\talktocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B67B63-F5BF-469F-8682-500D52C0A20D}|TalkToApi\\TalkToApi.csproj|solutionrelative:talktoapi\\database\\talktocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F5B53C-1A57-4EC5-8434-8B62630CF421}|TalkToWeb\\TalkToWeb.csproj|c:\\dev\\04.teste\\asp.netcorewebapi\\c\u00F3digo-fonte - passo a passo\\se\u00E7\u00E3o 07\\03-talktoapi\\talktoapi\\talktoweb\\talktoweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1F5B53C-1A57-4EC5-8434-8B62630CF421}|TalkToWeb\\TalkToWeb.csproj|solutionrelative:talktoweb\\talktoweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOMapperProfile.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Helpers\\DTOMapperProfile.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\Helpers\\DTOMapperProfile.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Helpers\\DTOMapperProfile.cs",
+              "RelativeToolTip": "TalkToApi\\Helpers\\DTOMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:34:23.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\V1\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\V1\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\V1\\Controllers\\UsuarioController.cs*",
+              "RelativeToolTip": "TalkToApi\\V1\\Controllers\\UsuarioController.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwCkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:23:17.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TalkToApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TalkToApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T16:19:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiVersionOperationFilter.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "RelativeToolTip": "TalkToApi\\Helpers\\Swagger\\ApiVersionOperationFilter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:18:25.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Startup.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\Startup.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Startup.cs",
+              "RelativeToolTip": "TalkToApi\\Startup.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAnwKEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:12:54.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TalkToContext.cs",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Database\\TalkToContext.cs",
+              "RelativeDocumentMoniker": "TalkToApi\\Database\\TalkToContext.cs",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToApi\\Database\\TalkToContext.cs",
+              "RelativeToolTip": "TalkToApi\\Database\\TalkToContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:12:20.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TalkToWeb",
+              "DocumentMoniker": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
+              "RelativeDocumentMoniker": "TalkToWeb\\TalkToWeb.csproj",
+              "ToolTip": "C:\\Dev\\04.TESTE\\ASP.NETCoreWebAPI\\C\u00F3digo-Fonte - Passo a Passo\\Se\u00E7\u00E3o 07\\03-TalkToAPI\\TalkToApi\\TalkToWeb\\TalkToWeb.csproj",
+              "RelativeToolTip": "TalkToWeb\\TalkToWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T16:11:38.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
